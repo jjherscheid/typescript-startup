@@ -1,0 +1,29 @@
+{
+    "name": "typescript-startup",
+    "version": "0.0.1",
+    "description": "Typescript Startup project",
+    "author": "Johan Herscheid",
+    "dependencies": {
+        "systemjs": "^0.19.28"
+    },
+    "devDependencies": {
+        "concurrently": "^2.1.0",
+        "lite-server": "^2.2.2",
+        "typescript": "^1.8.10"
+    },
+    "scripts": {
+        "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+        "lite": "lite-server",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w"
+    },
+    "eslintConfig": {
+        "parserOptions": {
+            "ecmaVersion": 6,
+            "sourceType": "module"
+        }
+    },
+    "jshintConfig": {
+        "esversion": 6
+    }
+}
