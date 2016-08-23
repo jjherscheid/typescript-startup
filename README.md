@@ -1,4 +1,4 @@
-# typescrip-startup
+# typescript-startup
 
 This repository contains a simple set of files for starting up with Typescript.  
 It can be used to check how Typescript works and play with it.  
