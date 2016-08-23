@@ -22,7 +22,7 @@ $ npm run tsc
 ```
 The src/dog.ts file will be converted to the lib/dog.js file.
 
-Run the typecsript build with watch and lite-server using npm  
+Run the typescript build with watch and lite-server using npm  
 ```
 $ npm start
 ```
