@@ -7,9 +7,9 @@
         "systemjs": "^0.19.28"
     },
     "devDependencies": {
-        "concurrently": "^2.1.0",
-        "lite-server": "^2.2.2",
-        "typescript": "^1.8.10"
+        "concurrently": "^3.4.0",
+        "lite-server": "^2.3.0",
+        "typescript": "^2.2.2"
     },
     "scripts": {
         "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
