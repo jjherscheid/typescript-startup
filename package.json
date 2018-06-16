@@ -15,7 +15,8 @@
         "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
         "lite": "lite-server",
         "tsc": "tsc",
-        "tsc:w": "tsc -w"
+        "tsc:w": "tsc -w",
+        "build": "tsc"
     },
     "eslintConfig": {
         "parserOptions": {
